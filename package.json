@@ -1,0 +1,41 @@
+{
+  "title": "TrueNest",
+  "name": "truenest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cleaning Service for you",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "scripts": {
+    "test": "node test.js",
+    "build": "gulp",
+    "start": "gulp start",
+    "start:dev": "gulp dev"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0",
+    "font-awesome": "4.7.0",
+    "jquery": "3.3.1",
+    "jquery.easing": "^1.4.1",
+    "magnific-popup": "^1.1.0",
+    "path": "^0.12.7",
+    "scrollreveal": "3.3.6"
+  },
+  "devDependencies": {
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.2",
+    "gulp-header": "2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "3.0.0",
+    "html": "^1.0.0",
+    "pm2": "^2.9.3"
+  }
+}
